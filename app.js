@@ -4,6 +4,10 @@ const port=3000;
 app.get('/',(req,res)=>{
     res.send("hellow world");
 });
+
+app.post('/', (req, res) => {
+  res.send('POST request to the homepage');
+});
 app.listen(port,()=>{
     console.log(`Server is running on http://localhost:${port}`);
 });
