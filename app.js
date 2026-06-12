@@ -4,7 +4,6 @@ const port=3000;
 app.get('/',(req,res)=>{
     res.send("hellow world");
 });
-
 app.post('/', (req, res) => {
   res.send('POST request to the homepage');
 });
